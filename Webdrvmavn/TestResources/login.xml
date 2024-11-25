@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestSuite" thread-count="1">
+
+<test name="ReadXMLData1">
+<parameter name="sUsername" value="siva23" />
+<parameter name="sPassword" value="siva"/> 
+
+<classes>
+<class name="DataDrivenTest.ReadXML" />
+</classes>
+</test>
+
+<test name="ReadXMLData2">
+<parameter name="sUsername" value="Vinodh" />
+<parameter name="sPassword" value="Vinodh"/> 
+
+<classes>
+<class name="DataDrivenTest.ReadXML" />
+</classes>
+</test>
+
+</suite>
